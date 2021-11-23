@@ -11,8 +11,7 @@
 
 }
 
-#left {
-    display: flex;
+#left { display:flex;
 
 }
 
@@ -24,7 +23,15 @@
 
 #left input{
     margin-right: 10px;
+    background-color:#323232;
 }
+
+#search-bar{
+    margin-right: 20px;
+    border: 2px solid 24292F;
+
+}
+
 #left ul{
     display: flex;
     gap: 10px;
@@ -35,9 +42,22 @@
 }
 
 #right {
+    display: flex;
 }
 
 
 #right img {
+    width: 25px;
+    margin-left: 10px;
     border-radius: 50%;
+}
+
+#right input{
+    background-color:24292F;
+}
+
+#right svg{
+    display: flex;
+    width: 18px;
+    margin-left: 10px;
 }
