@@ -8,11 +8,13 @@
 }
 
 #input {
+    display: flex;
+    background-color: #24292F;
 
 }
 
-#left { display:flex;
-
+#left {
+    display:flex;
 }
 
 #left img {
@@ -22,14 +24,17 @@
 }
 
 #left input{
-    background: #323232
+    background: #24292F;
     border: none;
     outline: none;
+    color: #C8C9CB;
 }
 
 #search-bar{
     margin-right: 20px;
     border: 2px solid #57606A;
+    padding: 2px;
+    border-radius: 4px;
 
 }
 
