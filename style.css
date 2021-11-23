@@ -1,0 +1,43 @@
+#header {
+    /*background: #000000;*/
+    background: #323232;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#input {
+
+}
+
+#left {
+    display: flex;
+
+}
+
+#left img {
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#left input{
+    margin-right: 10px;
+}
+#left ul{
+    display: flex;
+    gap: 10px;
+}
+
+#left ul li{
+    list-style: none;
+}
+
+#right {
+}
+
+
+#right img {
+    border-radius: 50%;
+}
