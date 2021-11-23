@@ -22,13 +22,14 @@
 }
 
 #left input{
-    margin-right: 10px;
-    background-color:#323232;
+    background: #323232
+    border: none;
+    outline: none;
 }
 
 #search-bar{
     margin-right: 20px;
-    border: 2px solid 24292F;
+    border: 2px solid #57606A;
 
 }
 
@@ -53,7 +54,7 @@
 }
 
 #right input{
-    background-color:24292F;
+    background-color:#24292F;
 }
 
 #right svg{
