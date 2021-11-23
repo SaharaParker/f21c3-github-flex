@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 #header {
     background: #24292F;
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 15px 25px;
+    padding: 15px 30px;
+
 }
 
 #input {
@@ -55,12 +62,14 @@
 
 #right {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
 #right img {
     width: 25px;
-    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 50%;
 }
 
@@ -70,5 +79,6 @@
 
 #right svg{
     width: 18px;
-    margin-right: 10px;
+    margin-left: 10px;
+
 }
